@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.base;
+package com.br.weatherapp.base;
 
 import android.content.res.Configuration;
 import android.graphics.BitmapFactory;
@@ -14,7 +14,7 @@ import android.widget.TextView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.Optional;
-import ceducarneiro.com.br.weatherapp.R;
+import com.br.weatherapp.R;
 
 public class ToolBarActvitiy extends ActionBarActivity {
 
