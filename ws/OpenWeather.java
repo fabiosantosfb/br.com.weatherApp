@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.ws;
+package br.com.weatherapp.ws;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
