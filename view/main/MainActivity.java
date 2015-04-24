@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.main;
+package br.com.weatherapp.view.main;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -15,18 +15,18 @@ import java.util.List;
 import butterknife.InjectView;
 import butterknife.OnPageChange;
 import butterknife.Optional;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.ToolBarActvitiy;
-import ceducarneiro.com.br.weatherapp.broadcast.AlarmReceiver;
-import ceducarneiro.com.br.weatherapp.controller.ListenerController;
-import ceducarneiro.com.br.weatherapp.controller.SyncListener;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.model.dao.PlaceDAO;
-import ceducarneiro.com.br.weatherapp.service.SyncService;
-import ceducarneiro.com.br.weatherapp.view.alert.AlertsActivity;
-import ceducarneiro.com.br.weatherapp.view.places.AddPlaceActivity;
-import ceducarneiro.com.br.weatherapp.view.places.PlacesFragment;
-import ceducarneiro.com.br.weatherapp.view.weather.WeatherFragment;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.ToolBarActvitiy;
+import br.com.weatherapp.broadcast.AlarmReceiver;
+import br.com.weatherapp.controller.ListenerController;
+import br.com.weatherapp.controller.SyncListener;
+import br.com.ceweatherapp.model.bean.Place;
+import br.com.weatherapp.model.dao.PlaceDAO;
+import br.com.weatherapp.service.SyncService;
+import br.com.weatherapp.view.alert.AlertsActivity;
+import br.com.weatherapp.view.places.AddPlaceActivity;
+import br.com.weatherapp.view.places.PlacesFragment;
+import br.com.weatherapp.view.weather.WeatherFragment;
 
 public class MainActivity extends ToolBarActvitiy implements PlacesFragment.PlacesListener,
         WeatherFragment.WeatherListener, SyncListener {
