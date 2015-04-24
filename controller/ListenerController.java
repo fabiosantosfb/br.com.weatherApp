@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.controller;
+package com.br.weatherapp.controller;
 
 import android.util.Log;
 
