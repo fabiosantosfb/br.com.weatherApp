@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.controller;
+package br.com.weatherapp.controller;
 
 import android.os.AsyncTask;
 import android.util.Log;
@@ -7,13 +7,13 @@ import com.google.android.gms.maps.model.LatLng;
 
 import java.util.Date;
 
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.AppController;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.model.bean.Weather;
-import ceducarneiro.com.br.weatherapp.model.dao.PlaceDAO;
-import ceducarneiro.com.br.weatherapp.ws.OpenWeather;
-import ceducarneiro.com.br.weatherapp.ws.OpenWeatherWS;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.AppController;
+import br.com.weatherapp.model.bean.Place;
+import br.com.weatherapp.model.bean.Weather;
+import br.com.weatherapp.model.dao.PlaceDAO;
+import br.com.weatherapp.ws.OpenWeather;
+import br.com.weatherapp.ws.OpenWeatherWS;
 
 public class WeatherController {
 
