@@ -1,4 +1,4 @@
-package com.br.weatherapp.controller;
+package br.com.weatherapp.controller;
 
 import android.util.Log;
 
