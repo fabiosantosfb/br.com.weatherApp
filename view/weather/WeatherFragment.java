@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.weather;
+package br.com.weatherapp.view.weather;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -17,10 +17,10 @@ import java.text.SimpleDateFormat;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.ToolBarFragment;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.model.dao.PlaceDAO;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.ToolBarFragment;
+import br.com.weatherapp.model.bean.Place;
+import br.com.weatherapp.model.dao.PlaceDAO;
 
 public class WeatherFragment extends ToolBarFragment {
 
