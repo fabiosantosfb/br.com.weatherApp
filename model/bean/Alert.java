@@ -1,9 +1,9 @@
-package ceducarneiro.com.br.weatherapp.model.bean;
+package br.com.weatherapp.model.bean;
 
 import android.util.Log;
 
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.AppController;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.AppController;
 
 public class Alert extends BaseBean {
 
