@@ -1,4 +1,4 @@
-package com.br.weatherapp.base;
+package br.com.weatherapp.base;
 
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.Optional;
-import com.br.weatherapp.R;
+import br.com.weatherapp.R;
 
 public class ToolBarFragment extends Fragment {
 
