@@ -1,4 +1,4 @@
-package com.br.weatherapp.base;
+package br.com.weatherapp.base;
 
 import android.app.Application;
 import android.util.Log;
