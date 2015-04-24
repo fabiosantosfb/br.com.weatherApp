@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.places;
+package br.com.weatherapp.view.places;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,12 +23,12 @@ import com.google.android.gms.maps.model.LatLng;
 import java.util.List;
 
 import butterknife.InjectView;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.ToolBarActvitiy;
-import ceducarneiro.com.br.weatherapp.controller.ListenerController;
-import ceducarneiro.com.br.weatherapp.controller.WeatherController;
-import ceducarneiro.com.br.weatherapp.controller.WeatherListener;
-import ceducarneiro.com.br.weatherapp.ws.OpenWeather;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.ToolBarActvitiy;
+import br.com.weatherapp.controller.ListenerController;
+import br.com.weatherapp.controller.WeatherController;
+import br.com.weatherapp.controller.WeatherListener;
+import br.com.weatherapp.ws.OpenWeather;
 
 public class AddPlaceActivity extends ToolBarActvitiy implements OnMapReadyCallback, GoogleMap.OnMapClickListener, WeatherListener {
 
