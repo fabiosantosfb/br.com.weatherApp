@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.main;
+package br.com.weatherapp.view.main;
 
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
@@ -8,11 +8,11 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.util.Log;
 import android.view.ViewGroup;
 
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.AppController;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.view.places.PlacesFragment;
-import ceducarneiro.com.br.weatherapp.view.weather.WeatherFragment;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.AppController;
+import br.com.weatherapp.model.bean.Place;
+import br.com.weatherapp.view.places.PlacesFragment;
+import br.com.weatherapp.view.weather.WeatherFragment;
 
 class PlacesPagerAdapter extends FragmentPagerAdapter {
     private PlacesFragment placesFragment;
