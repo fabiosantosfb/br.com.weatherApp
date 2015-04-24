@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.model;
+package br.com.weatherapp.model;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
