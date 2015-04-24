@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.service;
+package br.com.weatherapp.service;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -15,18 +15,18 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.AppController;
-import ceducarneiro.com.br.weatherapp.broadcast.AlarmReceiver;
-import ceducarneiro.com.br.weatherapp.controller.WeatherController;
-import ceducarneiro.com.br.weatherapp.model.bean.Alert;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.model.dao.AlertDAO;
-import ceducarneiro.com.br.weatherapp.model.dao.PlaceDAO;
-import ceducarneiro.com.br.weatherapp.view.main.MainActivity;
-import ceducarneiro.com.br.weatherapp.ws.OpenWeather;
-import ceducarneiro.com.br.weatherapp.ws.OpenWeatherList;
-import ceducarneiro.com.br.weatherapp.ws.OpenWeatherWS;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.AppController;
+import br.com.weatherapp.broadcast.AlarmReceiver;
+import br.com.weatherapp.controller.WeatherController;
+import br.com.weatherapp.model.bean.Alert;
+import br.com.weatherapp.model.bean.Place;
+import br.com.weatherapp.model.dao.AlertDAO;
+import br.com.weatherapp.model.dao.PlaceDAO;
+import br.com.weatherapp.view.main.MainActivity;
+import br.com.weatherapp.ws.OpenWeather;
+import br.com.weatherapp.ws.OpenWeatherList;
+import br.com.weatherapp.ws.OpenWeatherWS;
 
 public class AlertService extends IntentService {
 
