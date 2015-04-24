@@ -1,4 +1,4 @@
-package com.br.weatherapp.broadcast;
+package br.com.weatherapp.broadcast;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -7,7 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.br.weatherapp.service.AlertService;
+import br.com.weatherapp.service.AlertService;
 
 public class AlarmReceiver extends BroadcastReceiver {
 
