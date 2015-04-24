@@ -1,4 +1,4 @@
-package com.br.weatherapp.base;
+package br.com.weatherapp.base;
 
 import android.content.res.Configuration;
 import android.graphics.BitmapFactory;
@@ -14,7 +14,7 @@ import android.widget.TextView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.Optional;
-import com.br.weatherapp.R;
+import br.com.weatherapp.R;
 
 public class ToolBarActvitiy extends ActionBarActivity {
 
