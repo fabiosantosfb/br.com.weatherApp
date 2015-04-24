@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.model.dao;
+package br.com.weatherapp.model.dao;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -8,8 +8,8 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import ceducarneiro.com.br.weatherapp.model.WeatherAppDBContract;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
+import br.com.weatherapp.model.WeatherAppDBContract;
+import br.com.weatherapp.model.bean.Place;
 
 public class PlaceDAO extends BaseDAO<Place> {
 
