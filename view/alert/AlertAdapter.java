@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.alert;
+package br.com.weatherapp.view.alert;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.Locale;
 
 import butterknife.ButterKnife;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.model.bean.Alert;
+import br.com.weatherapp.R;
+import br.com.weatherapp.model.bean.Alert;
 
 public class AlertAdapter extends BaseAdapter {
 
