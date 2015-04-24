@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.places;
+package br.com.weatherapp.view.places;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.Locale;
 
 import butterknife.ButterKnife;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
+import br.com.weatherapp.R;
+import br.com.weatherapp.model.bean.Place;
 
 public class PlaceAdapter extends BaseAdapter {
 
