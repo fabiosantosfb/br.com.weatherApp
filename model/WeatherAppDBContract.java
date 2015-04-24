@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.model;
+package br.com.weatherapp.model;
 
 public abstract class WeatherAppDBContract {
 
