@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.model.dao;
+package br.com.weatherapp.model.dao;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -8,10 +8,10 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import ceducarneiro.com.br.weatherapp.base.AppController;
-import ceducarneiro.com.br.weatherapp.model.WeatherAppDBContract;
-import ceducarneiro.com.br.weatherapp.model.WeatherAppDBHelper;
-import ceducarneiro.com.br.weatherapp.model.bean.BaseBean;
+import br.com.weatherapp.base.AppController;
+import br.com.weatherapp.model.WeatherAppDBContract;
+import br.com.weatherapp.model.WeatherAppDBHelper;
+import br.com.weatherapp.model.bean.BaseBean;
 
 public abstract class BaseDAO<T extends BaseBean> {
 
