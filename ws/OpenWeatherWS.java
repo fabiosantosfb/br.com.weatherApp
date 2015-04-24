@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.ws;
+package br.com.weatherapp.ws;
 
 import android.util.Log;
 
