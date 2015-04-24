@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.alert;
+package br.com.weatherapp.view.alert;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -20,13 +20,13 @@ import java.util.List;
 import butterknife.InjectView;
 import butterknife.OnItemLongClick;
 import butterknife.OnItemSelected;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.AppController;
-import ceducarneiro.com.br.weatherapp.base.ToolBarActvitiy;
-import ceducarneiro.com.br.weatherapp.broadcast.AlarmReceiver;
-import ceducarneiro.com.br.weatherapp.model.bean.Alert;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.model.dao.AlertDAO;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.AppController;
+import br.com.weatherapp.base.ToolBarActvitiy;
+import br.com.weatherapp.broadcast.AlarmReceiver;
+import br.com.weatherapp.model.bean.Alert;
+import br.com.weatherapp.model.bean.Place;
+import br.com.weatherapp.model.dao.AlertDAO;
 
 public class AlertsActivity extends ToolBarActvitiy {
 
