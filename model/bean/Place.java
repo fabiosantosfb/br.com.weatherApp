@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.model.bean;
+package br.com.weatherapp.model.bean;
 
 import android.util.Log;
 
