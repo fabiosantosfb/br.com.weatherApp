@@ -1,4 +1,4 @@
-package ceducarneiro.com.br.weatherapp.view.places;
+package br.com.weatherapp.view.places;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -20,10 +20,10 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnItemClick;
 import butterknife.OnItemLongClick;
-import ceducarneiro.com.br.weatherapp.R;
-import ceducarneiro.com.br.weatherapp.base.ToolBarFragment;
-import ceducarneiro.com.br.weatherapp.model.bean.Place;
-import ceducarneiro.com.br.weatherapp.model.dao.PlaceDAO;
+import br.com.weatherapp.R;
+import br.com.weatherapp.base.ToolBarFragment;
+import br.com.weatherapp.model.bean.Place;
+import br.com.weatherapp.model.dao.PlaceDAO;
 
 public class PlacesFragment extends ToolBarFragment implements SearchView.OnQueryTextListener {
 
